@@ -22,9 +22,12 @@ print(3<=4)
 print(3==4)
 print(3!=4)
 
+#operadore logicos
 
-
-
+print(3>4 and "Hola" > "Phyton") #&& 
+print(3>4 or "Hola" > "Phyton")#|| alt124
+print(not(3>4))
+print( "Hola" > "Phyton")
 
 
 

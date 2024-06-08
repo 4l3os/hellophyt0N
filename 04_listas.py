@@ -42,14 +42,39 @@ print(my_other_list)
 my_other_list.remove("Leo")
 print(my_other_list)
 
+my_other_list[1]="rojo"
+print(my_other_list)
+
 my_list.remove(30)
 print(my_list)
 
 my_list.pop()
-print(my_list)
+print(my_list) 
 
 print(my_list.pop())
 
+print(my_list.pop(2))
+
+my_pop_element=my_list.pop(2)
+print(my_pop_element)
+
+del my_list[0]
+print(my_list)
+
+my_new_list=my_list.copy()
+
+my_list.clear()
+print(my_list)
+print(my_new_list)
+
+my_new_list.append(21)
+print(my_new_list)
+
+my_new_list.reverse()
+print(my_new_list)
+
+my_new_list.sort()
+print(my_new_list)
 
 
 my_list=["Hola Phyton"]

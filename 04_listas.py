@@ -33,6 +33,28 @@ print(age)
 
 print(my_list + my_other_list)
 
+my_other_list.append("aleos")
+print(my_other_list)
+
+my_other_list.insert(1, "Negro")
+print(my_other_list)
+
+my_other_list.remove("Leo")
+print(my_other_list)
+
+my_list.remove(30)
+print(my_list)
+
+my_list.pop()
+print(my_list)
+
+print(my_list.pop())
+
+
+
+my_list=["Hola Phyton"]
+print(type(my_list))
+
 
 
 

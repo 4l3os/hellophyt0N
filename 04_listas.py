@@ -77,6 +77,9 @@ my_new_list.sort()
 print(my_new_list)
 
 
+print(my_new_list[1:2])
+
+
 my_list=["Hola Phyton"]
 print(type(my_list))
 

@@ -37,6 +37,17 @@ print(my_list)
 
 print(my_list[0])
 
+my_other_set={"Kotlin","Swift","Phyton"}
+
+my_new_set = my_set.union(my_other_set)
+print(my_new_set)
+
+my_new_set=my_set.union(my_other_set)
+print(my_new_set.union(my_new_set).union(my_set).union({"Javascript","C#"}))
+
+print(my_new_set.difference(my_set))
+
+
 
 
 

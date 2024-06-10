@@ -9,3 +9,6 @@ print(type(my_other_set)) #Inicialmente es un dict
 my_other_set={"Leo","Oscanoa", 35}
 print(type(my_other_set))
 
+print(len(my_other_set))
+
+

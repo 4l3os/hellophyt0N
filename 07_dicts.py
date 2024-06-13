@@ -29,8 +29,17 @@ my_dict["Nombre"]="Pedro"
 print(my_dict["Nombre"])
 print(my_dict[1])
 
+my_dict["Calle"]="Calle Huaycan"
+print(my_dict)
 
 
+del my_dict["Calle"]
+print(my_dict)
 
+print("Oscanoa" in my_dict)
+print("Apellido" in my_dict)
 
-
+print(my_dict.items)
+print(my_dict.keys)
+print(my_dict.values)
+print(my_dict.fromkeys)

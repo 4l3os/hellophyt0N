@@ -24,4 +24,17 @@ print("La ejecucion continua")
 
 
 
+my_string=""
+
+if not my_string:
+    print("Mi cadena de texto es vacia")
+
+if my_string=="Mi cadena de textooooo":
+    print("estas cadenas de textos coinciden")
+
+
+
+
+
+
 

@@ -15,8 +15,8 @@ if my_condition >10 and my_condition<20:
 elif my_condition ==25:
     print("Es igual a 25")
     
-else:
-    print("Es menor o igual que 10 o mayor o igual que 20")
+else :
+    print("Es menor o igual que 10 o mayor o igual que 20 o distinto de 25")
 
 print("La ejecucion continua")
 

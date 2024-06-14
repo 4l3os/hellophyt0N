@@ -37,13 +37,35 @@ for element in my_tuple:
 my_set={"Leo","Oscanoa", 22}
 for element in my_set:
     print(element)
-
+    
 my_dict={"Nombre":"Leo", "Apellido":"Oscanoa" , "Edad":22 , 1:"Python"}
 for element in my_dict:
     print(element)
 
+    if element=="Nombre":
+        break
+    print("Se ejecuta")
+
+else:
+    print("El bucle for por diccionario ha finalizado")
+print("la ejecucion continua")
 
 
+for element in my_dict:
+    print(element)
+
+    if element=="Nombre":
+        continue
+    else:
+        print("Se ejecuta")
+else:
+    print("El bucle for por diccionario ha finalizado")
+
+
+for contador in range(10):
+    if contador % 2 == 0:
+        continue  # Salta a la siguiente iteración si el número es par
+    print(contador)
 
 
 

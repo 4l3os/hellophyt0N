@@ -32,8 +32,9 @@ print_name_with_default("leo", "oscanoa", "aleos")
 print_name_with_default("leo", "oscanoa")
 
 
-def print_texts(*text):
-    print(text)
+def print_upper_texts(*texts):
+    for text in texts:
+        print(text.upper())
 
-print_texts("Hola" , "python", "leo")
-
+print_upper_texts("Hola" , "python", "leo")
+print_upper_texts("Hola")

@@ -33,6 +33,7 @@ print_name_with_default("leo", "oscanoa")
 
 
 def print_upper_texts(*texts):
+    print(type(texts))
     for text in texts:
         print(text.upper())
 

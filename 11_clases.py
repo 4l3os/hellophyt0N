@@ -21,3 +21,6 @@ print(my_other_person.full_name)
 my_other_person.walk()
 my_person.full_name= "Ale Ramirez (El loco de los perros)"
 print(my_person.full_name)
+
+my_person.full_name= 679
+print(my_person.full_name)

@@ -14,6 +14,10 @@ printValue("Hola phyton")
 import math
 
 print(math.pi)
+print(math.pow(2,8))
+
+from math import pi as pi_value
+print(pi_value)
 
 
 

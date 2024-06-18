@@ -1,5 +1,5 @@
-def sum(numberOne, numberTwo, numberThree):
-    print(numberOne + numberTwo + numberThree)
+def sumValue(numberOne, numberTwo, numberThree):
+    printValue(numberOne + numberTwo + numberThree)
 
 def printValue(value):
     print(value)
